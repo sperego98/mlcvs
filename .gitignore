@@ -24,6 +24,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+extra/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -104,3 +105,5 @@ ENV/
 # profraw files from LLVM? Unclear exactly what triggers this
 # There are reports this comes from LLVM profiling, but also Xcode 9.
 *profraw
+
+*/_version.py
